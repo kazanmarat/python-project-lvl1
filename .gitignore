@@ -1,0 +1,8 @@
+# I have added this file 14 oct. 2021.
+
+# Ignore directory .venv in all directories of project
+.venv
+
+# I have added this line 21 oct. 2021
+# Ignore directory dist
+dist
