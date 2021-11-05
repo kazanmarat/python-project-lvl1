@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-"""Main module."""
+"""Do this module main and import functions from other modules."""
 
 
 from brain_games.cli import welcome_user
