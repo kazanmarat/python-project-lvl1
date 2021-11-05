@@ -6,3 +6,7 @@
 # I have added this line 21 oct. 2021
 # Ignore directory dist
 dist
+
+#I have added this line 05 nov. 2021
+#Ignore all .pyc files
+*.pyc
