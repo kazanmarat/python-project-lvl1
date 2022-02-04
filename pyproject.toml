@@ -5,6 +5,7 @@ description = ""
 authors = ["Marat Mukhutdinov <kazanmarat2009@yandex.ru>"]
 packages = [
   { include = "brain_games" },
+  { include = "games" }
 ]  
 
 [tool.poetry.dependencies]
