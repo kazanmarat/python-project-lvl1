@@ -1,4 +1,4 @@
-"""Do main calculations."""
+"""Do main calculations and send results to the main."""
 
 from games.ask_name import ask_name
 from games.give_rand_numb import give_rand_int
