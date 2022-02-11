@@ -22,7 +22,7 @@ def do_progr():
     n = 0
     while n < 3:
         my_list = give_list()
-        my_element = choice(range(len(my_list)))
+        my_element = choice(range(len(my_list) - 1))
         my_result = my_list[my_element]
         my_list[my_element] = '..'
         str_list = numb_to_string(my_list)
