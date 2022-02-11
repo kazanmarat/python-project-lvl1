@@ -6,7 +6,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a5551f40b263ba2c3764/maintainability)](https://codeclimate.com/github/ooade/NextSimpleStarter/maintainability)
 
 ### Video asciinema about installing brain-even
-[![asciicast](https://asciinema.org/)](https://asciinema.org/a/TaUCjR9spC5strNBM7ezZyPOb)
+[![asciicast](https://asciinema.org/a/TaUCjR9spC5strNBM7ezZyPOb.svg)](https://asciinema.org/a/TaUCjR9spC5strNBM7ezZyPOb)
+
 
 ### Video asciinema about brain-prime
-[![asciicast](https://asciinema.org/)](https://asciinema.org/a/nysOJlnwkrKyT2MiFzDa74PJQ)
+[![asciicast](https://asciinema.org/a/nysOJlnwkrKyT2MiFzDa74PJQ.svg)](https://asciinema.org/a/nysOJlnwkrKyT2MiFzDa74PJQ)
