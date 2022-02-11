@@ -7,3 +7,6 @@
 
 ### Video asciinema about installing brain-even
 (https://asciinema.org/a/TaUCjR9spC5strNBM7ezZyPOb)
+
+### Video asciinema about brain-prime
+[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/nysOJlnwkrKyT2MiFzDa74PJQ)
