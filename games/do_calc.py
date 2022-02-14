@@ -15,7 +15,8 @@ def do_calc():
 
     text01 = 'Question: {0} {1} {2}'
     text02 = 'Your answer: '
-    text03 = "'{0}' is wrong answer ;(. Correct answer was '{1}'.\nLet's try again, {2}!"
+    text03 = "'{0}' is wrong answer ;(. Correct answer was '{1}'. "
+    text03a = "Let's try again, {0}!"
     text04 = 'Correct!'
     text05 = 'Congratulations, {0}!'
 
@@ -33,7 +34,8 @@ def do_calc():
             result_add = numb1 + numb2
 
             if answer != result_add:
-                print(text03.format(answer, result_add, guest_name))
+                print(text03.format(answer, result_add,), end='')
+                print(text03a.format(guest_name))
                 break
             else:
                 print(text04)
