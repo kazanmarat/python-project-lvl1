@@ -34,7 +34,7 @@ def do_calc():
             result_add = numb1 + numb2
 
             if answer != result_add:
-                print(text03.format(answer, result_add,), end='')
+                print(text03.format(answer, result_add))
                 print(text03a.format(guest_name))
                 break
             else:
@@ -46,7 +46,8 @@ def do_calc():
             result_subtr = numb1 - numb2
 
             if answer != result_subtr:
-                print(text03.format(answer, result_subtr, guest_name))
+                print(text03.format(answer, result_subtr))
+                print(text03a.format(guest_name))
                 break
             else:
                 print(text04)
@@ -57,7 +58,8 @@ def do_calc():
             result_multipl = numb1 * numb2
 
             if answer != result_multipl:
-                print(text03.format(answer, result_multipl, guest_name))
+                print(text03.format(answer, result_multipl))
+                print(text03a.format(guest_name))
                 break
             else:
                 print(text04)
