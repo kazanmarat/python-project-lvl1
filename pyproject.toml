@@ -1,12 +1,18 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "first project - Brain-Games"
 authors = ["Marat Mukhutdinov <kazanmarat2009@yandex.ru>"]
 packages = [
   { include = "brain_games" },
   { include = "games" }
-]  
+] 
+classifiers = [
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
