@@ -8,7 +8,7 @@ print('Welcome to the Brain Games!')
 
 text01 = 'Answer "yes" if the number is even, otherwise answer "no. '
 text_wrong_ans1 = "'yes' is wrong answer ;(. Correct answer was 'no'."
-text_wrong_ans2 = "Let\'s try again, {0}."
+text_wrong_ans2 = "Let\'s try again, {0}!"
 
 
 def even_numb():
