@@ -3,13 +3,13 @@
 
 """Do this module main and import functions from other modules."""
 
-
-from brain_games.even_numbers import even_numb
+from brain_games.games.do_even import do_even
+from brain_games.all_dvizh import all_dvizh
 
 
 def main():
     """Define the main function."""
-    even_numb()
+    all_dvizh(do_even)
 
 
 if __name__ == '__main__':

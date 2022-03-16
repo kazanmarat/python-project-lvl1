@@ -5,7 +5,7 @@ description = "first project - Brain-Games"
 authors = ["Marat Mukhutdinov <kazanmarat2009@yandex.ru>"]
 packages = [
   { include = "brain_games" },
-  { include = "games" }
+  { include = "games", from = "brain_games" }
 ] 
 classifiers = [
   "Topic :: Software Development :: Build Tools",
