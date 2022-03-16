@@ -1,7 +1,6 @@
 """Module do_even. Calculates evenness of given number."""
 
 
-
 def do_even(num1):
     """do_even takes argument and returns evenness.
     Parameter: num1 is random number

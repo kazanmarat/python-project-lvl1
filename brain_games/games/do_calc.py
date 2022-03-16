@@ -1,7 +1,7 @@
 """Module do_calc. Do main calculations and return results to the main."""
 
-
 from random import choice
+
 
 def do_calc(numb1, numb2):
     """Do calculates brain_calc.
