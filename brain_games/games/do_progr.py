@@ -2,6 +2,7 @@
 
 from random import choice
 
+
 def do_progr():
     """Do calculation of missing number from list.
     Create list my_list with quantity of numbs elemetns.

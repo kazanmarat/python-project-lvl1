@@ -34,11 +34,8 @@ def all_dvizh(scenario):
     while quant < MY_CIRCLES:
         num1 = randint(1, 100)
         num2 = randint(1, 100)
-
-        
         if scenario == do_even:
             user_res, cor_res = do_even(num1)
-
         elif scenario == do_calc:
             user_res, cor_res = do_calc(num1, num2)
         elif scenario == do_gcd:
