@@ -19,12 +19,14 @@ def all_dvizh(scenario):
     user_name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(user_name))
 
+    longtext1 = 'Answer "yes" if the number is even, otherwise answer "no".'
+    longtext2 = 'Answer "yes" if given number is prime, otherwise answer "no".'
     var_answers = {
-        do_even: 'Answer "yes" it the number is even, otherwise answer "no".',
+        do_even: longtext1,
         do_calc: 'What is the result of the expression?',
         do_gcd: 'Find the greatest common divisor of given numbers.',
         do_progr: 'What number is missing in the progression?',
-        do_prime: 'Answer "yes" if given number is prime, otherwise answer "no".',
+        do_prime: longtext2
     }
     print(var_answers[scenario])
     quant = 0
