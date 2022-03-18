@@ -16,5 +16,5 @@ def do_prime(num1):
         if num1 % i == 0:
             cor_res = 'no'
     if num1 == 1:
-        cor_res = 'yes'
+        cor_res = 'no'
     return (user_res, cor_res)
