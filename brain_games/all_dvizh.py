@@ -20,11 +20,11 @@ def all_dvizh(scenario):
     print('Hello, {0}!'.format(user_name))
 
     var_answers = {
-     do_even: 'Answer "yes" it the number is even, otherwise answer "no".',
-     do_calc: 'What is the result of the expression?',
-     do_gcd: 'Find the greatest common divisor of given numbers.',
-     do_progr: 'What number is missing in the progression?',
-     do_prime: 'Answer "yes" if given number is prime, otherwise answer "no".',
+        do_even: 'Answer "yes" it the number is even, otherwise answer "no".',
+        do_calc: 'What is the result of the expression?',
+        do_gcd: 'Find the greatest common divisor of given numbers.',
+        do_progr: 'What number is missing in the progression?',
+        do_prime: 'Answer "yes" if given number is prime, otherwise answer "no".',
     }
     print(var_answers[scenario])
     quant = 0
