@@ -11,7 +11,7 @@ from brain_games.games.do_gcd import do_gcd
 from brain_games.games.do_prime import do_prime
 from brain_games.games.do_progr import do_progr
 
-
+# flake8: noqa: C901
 def all_dvizh(scenario):
     """Do the main logic. In argument scenario - name of function to do."""
     print('Welcome to the Brain Games!')
