@@ -32,16 +32,18 @@ def all_dvizh(scenario):
     while quant < MY_CIRCLES:
         num1 = randint(1, 100)
         num2 = randint(1, 100)
-
-        var_func = {
-            do_even : do_even(num1),
-            do_calc : do_calc(num1, num2),
-            do_gcd : do_gcd(num1, num2),
-            do_progr : do_progr(),
-            do_prime : do_prime(num1)
-        }
-        user_res, cor_res = var_func[scenario]
         
+        if scenario == do_even:
+            user_res, cor_res = do_even(num1)
+        elif scenario == do_calc:
+            user_res, cor_res = do_calc(num1, num2)
+        elif scenario == do_gcd:
+            user_res, cor_res = do_gcd(num1, num2)
+        elif scenario == do_progr:
+            user_res, cor_res = do_progr()
+        elif scenario == do_prime:
+            user_res, cor_res = do_prime(num1) 
+      
 
         if user_res != cor_res:
             print("'{0}' is wrong answer :(.".format(user_res), end='')
