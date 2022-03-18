@@ -20,19 +20,17 @@ def all_dvizh(scenario):
     print('Hello, {0}!'.format(user_name))
 
     var_answers = {
-        do_even : 'Answer "yes" it the number is even, otherwise answer "no".',
-        do_calc : 'What is the result of the expression?',
-        do_gcd : 'Find the greatest common divisor of given numbers.',
-        do_progr : 'What number is missing in the progression?',
-        do_prime : 'Answer "yes" if given number is prime, otherwise answer "no".',
+        do_even:'Answer "yes" it the number is even, otherwise answer "no".',
+        do_calc:'What is the result of the expression?',
+        do_gcd:'Find the greatest common divisor of given numbers.',
+        do_progr:'What number is missing in the progression?',
+        do_prime:'Answer "yes" if given number is prime, otherwise answer "no".',
     }
     print(var_answers[scenario])
-   
     quant = 0
     while quant < MY_CIRCLES:
         num1 = randint(1, 100)
         num2 = randint(1, 100)
-        
         if scenario == do_even:
             user_res, cor_res = do_even(num1)
         elif scenario == do_calc:
@@ -43,7 +41,6 @@ def all_dvizh(scenario):
             user_res, cor_res = do_progr()
         elif scenario == do_prime:
             user_res, cor_res = do_prime(num1) 
-      
 
         if user_res != cor_res:
             print("'{0}' is wrong answer :(.".format(user_res), end='')
