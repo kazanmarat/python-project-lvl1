@@ -18,32 +18,30 @@ def all_dvizh(scenario):
     MY_CIRCLES = 3
     user_name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(user_name))
-    if scenario == do_even:
-        print('Answer "yes" if the number is even, ', end='')
-        print('otherwise answer "no".')
-    elif scenario == do_calc:
-        print('What is the result of the expression?')
-    elif scenario == do_gcd:
-        print('Find the greatest common divisor of given numbers.')
-    elif scenario == do_progr:
-        print('What number is missing in the progression?')
-    elif scenario == do_prime:
-        print('Answer "yes" if given number is prime, ', end='')
-        print('otherwise answer "no".')
+
+    var_answers = {
+        do_even : 'Answer "yes" it the number is even, otherwise answer "no".',
+        do_calc : 'What is the result of the expression?',
+        do_gcd : 'Find the greatest common divisor of given numbers.',
+        do_progr : 'What number is missing in the progression?',
+        do_prime : 'Answer "yes" if given number is prime, otherwise answer "no".',
+    }
+    print(var_answers[scenario])
+   
     quant = 0
     while quant < MY_CIRCLES:
         num1 = randint(1, 100)
         num2 = randint(1, 100)
-        if scenario == do_even:
-            user_res, cor_res = do_even(num1)
-        elif scenario == do_calc:
-            user_res, cor_res = do_calc(num1, num2)
-        elif scenario == do_gcd:
-            user_res, cor_res = do_gcd(num1, num2)
-        elif scenario == do_progr:
-            user_res, cor_res = do_progr()
-        elif scenario == do_prime:
-            user_res, cor_res = do_prime(num1)
+
+        var_func = {
+            do_even : do_even(num1),
+            do_calc : do_calc(num1, num2),
+            do_gcd : do_gcd(num1, num2),
+            do_progr : do_progr(),
+            do_prime : do_prime(num1)
+        }
+        user_res, cor_res = var_func[scenario]
+        
 
         if user_res != cor_res:
             print("'{0}' is wrong answer :(.".format(user_res), end='')
