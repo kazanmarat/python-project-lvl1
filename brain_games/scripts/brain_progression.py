@@ -2,12 +2,12 @@
 """Do this module main and import functions from other modules."""
 
 from brain_games.games.do_progr import do_progr
-from brain_games.all_dvizh import all_dvizh
+from brain_games.central_function import central_function
 
 
 def main():
     """Define the main function."""
-    all_dvizh(do_progr)
+    central_function(do_progr)
 
 
 if __name__ == '__main__':

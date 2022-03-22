@@ -1,20 +1,25 @@
 """Module do_prime. It calculates if the given number is prime."""
 
+from random import randint
 
-def do_prime(num1):
+LOWER_BOUND = 1
+UPPER_BOUND = 100
+def do_prime():
     """Calculate number and return True if it is prime.
     Parameter - random number num1.
     Returns - is it prime.
     """
-    text01 = 'Question: {0}'
-    text02 = 'Your answer: '
-    print(text01.format(num1))
-    user_res = input(text02)
-    cor_res = 'yes'
-    limiter = int((num1 ** 0.5) + 1)
+    
+    random_number = randint(LOWER_BOUND, UPPER_BOUND)
+    
+   
+    operat_question = 'Question: {0}'.format(random_number)
+    
+    correct_result = 'yes'
+    limiter = int((random_number ** 0.5) + 1)
     for i in range(2, limiter):
-        if num1 % i == 0:
-            cor_res = 'no'
-    if num1 == 1:
-        cor_res = 'no'
-    return (user_res, cor_res)
+        if random_number % i == 0:
+            correct_result = 'no'
+    if random_number == 1:
+        correct_result = 'no'
+    return (operat_question, correct_result)

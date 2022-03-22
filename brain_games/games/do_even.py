@@ -1,17 +1,20 @@
 """Module do_even. Calculates evenness of given number."""
 
+from random import randint
 
-def do_even(num1):
+LOWER_BOUND = 1
+UPPER_BOUND = 100
+def do_even():
     """do_even takes argument and returns evenness.
     Parameter: num1 is random number
     Returns:  is num1 is even.
     """
-    text01 = 'Question: {0}'
-    text02 = 'Your answer: '
-    if num1 % 2 == 0:
-        cor_res = 'yes'
+    
+    random_number = randint(LOWER_BOUND, UPPER_BOUND)
+   
+    if random_number % 2 == 0:
+        correct_result = 'yes'
     else:
-        cor_res = 'no'
-    print(text01.format(num1))
-    user_res = input(text02)
-    return (user_res, cor_res)
+        correct_result = 'no'
+    operat_question = 'Question: {0}'.format(random_number)    
+    return (operat_question, correct_result)
