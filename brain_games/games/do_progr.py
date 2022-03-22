@@ -10,8 +10,6 @@ def do_progr():
     In my_list one random element is replaced
     by '..' and user must answer, which element.
     """
-   
-    
     numbs = choice([5, 6, 7, 8, 9, 10])
     steps = choice([2, 3, 4, 5, 6, 7, 8, 9])
     my_list = [i * steps for i in range(numbs)]
@@ -23,6 +21,4 @@ def do_progr():
         chars.append(str(number))
     str_for_numbs = (' '.join(chars))
     operat_question = 'Question: {0}'.format(str_for_numbs)
-
-    
     return (operat_question, correct_result)

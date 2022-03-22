@@ -6,15 +6,11 @@ LOWER_BOUND = 1
 UPPER_BOUND = 100
 def do_prime():
     """Calculate number and return True if it is prime.
-    Parameter - random number num1.
-    Returns - is it prime.
+    Parameter - random_number.
+    Returns - operat_question, correct_result.
     """
-    
     random_number = randint(LOWER_BOUND, UPPER_BOUND)
-    
-   
     operat_question = 'Question: {0}'.format(random_number)
-    
     correct_result = 'yes'
     limiter = int((random_number ** 0.5) + 1)
     for i in range(2, limiter):
