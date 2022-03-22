@@ -6,6 +6,7 @@ from random import randint
 LOWER_BOUND = 1
 UPPER_BOUND = 100
 
+
 def do_calc():
     """Do calculates brain_calc.
     Parameters: - numb1 and numb2 are random numbers.

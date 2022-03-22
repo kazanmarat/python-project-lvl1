@@ -4,6 +4,8 @@ from random import randint
 
 LOWER_BOUND = 1
 UPPER_BOUND = 100
+
+
 def do_prime():
     """Calculate number and return True if it is prime.
     Parameter - random_number.

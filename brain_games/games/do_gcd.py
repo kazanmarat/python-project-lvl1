@@ -4,6 +4,8 @@ from random import randint
 
 LOWER_BOUND = 1
 UPPER_BOUND = 100
+
+
 def do_gcd():
     """Take given numbers num1 and num2 and returns gcd.
     Parameters: a and b are random numbers.
