@@ -3,16 +3,8 @@
 
 import prompt
 
-from brain_games.games.do_calc import do_calc
-from brain_games.games.do_even import do_even
-from brain_games.games.do_gcd import do_gcd
-from brain_games.games.do_prime import do_prime
-from brain_games.games.do_progr import do_progr
-
-
 
 NUMBER_OF_CYCLES = 3
-
 WELCOME_TEXT = 'Welcome to the Brain Games!'
 ASK_NAME = 'May I have your name? '
 GREET_TXT = 'Hello, {0}!'
@@ -21,6 +13,7 @@ txt15 = 'Congratulations, {0}!'
 txt16 = "'{0}' is wrong answer ;(. "
 txt17 = "Correct answer was '{0}'."
 txt18 = "Let's try again, {0}!"
+
 
 def dispatch_all(scenario):
     print(WELCOME_TEXT)

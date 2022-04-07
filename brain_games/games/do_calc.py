@@ -10,7 +10,7 @@ UPPER_BOUND = 100
 def do_calc():
     """Do calculates brain_calc.
     Parameters: - numb1 and numb2 are random numbers.
-    Returns: result of mathem. operation, rorrect result and text
+    Returns: result of mathem. operation, correct result and text
     of this function.
     """
     FUNC_TXT = 'What is the result of the expression?'
@@ -18,22 +18,13 @@ def do_calc():
     random_number2 = randint(LOWER_BOUND, UPPER_BOUND)
     my_choice = choice(['add', 'subtr', 'multipl'])
     dict_of_choice = {
-        'add' : ['{0} {1} {2}'.format(random_number1, '+', random_number2),
+        'add': ['{0} {1} {2}'.format(random_number1, '+', random_number2),
         random_number1 + random_number2],
-        'subtr' : ['{0} {1} {2}'.format(random_number1, '-', random_number2),
+        'subtr': ['{0} {1} {2}'.format(random_number1, '-', random_number2),
         random_number1 - random_number2],
-        'multipl' : ['{0} {1} {2}'.format(random_number1, '*', random_number2),
+        'multipl': ['{0} {1} {2}'.format(random_number1, '*', random_number2),
         random_number1 * random_number2]
     }
-    #if my_choice == 'add':
-    #    operat_quest = '{0} {1} {2}'.format(random_number1, '+', random_number2)
-    #    cor_res = random_number1 + random_number2
-    #elif my_choice == 'subtr':
-    #    operat_quest = '{0} {1} {2}'.format(random_number1, '-', random_number2)
-    #    cor_res = random_number1 - random_number2
-    #elif my_choice == 'multipl':
-    #    operat_quest = '{0} {1} {2}'.format(random_number1, '*', random_number2)
-    #    cor_res = random_number1 * random_number2
     operat_quest = dict_of_choice[my_choice][0]
     cor_res = dict_of_choice[my_choice][1]
     return(operat_quest, cor_res, FUNC_TXT)

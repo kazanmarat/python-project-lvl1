@@ -15,6 +15,7 @@ def do_prime():
     FUNC_TXT = 'Answer "yes" if given number is prime, otherwise answer "no".'
     random_number = randint(LOWER_BOUND, UPPER_BOUND)
     operat_question = '{0}'.format(random_number)
+
     def is_prime(any_number):
         limiter = int((any_number ** 0.5) + 1)
         inner_correct_result = 'yes'

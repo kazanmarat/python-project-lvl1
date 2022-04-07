@@ -5,6 +5,7 @@ from random import randint
 LOWER_BOUND = 1
 UPPER_BOUND = 100
 
+
 def do_even():
     """do_even takes argument and returns evenness.
     Parameter: operat_question, correct result and text of this function.
