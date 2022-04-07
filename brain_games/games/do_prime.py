@@ -19,7 +19,7 @@ def do_prime():
     def is_prime(any_number):
         limiter = int((any_number ** 0.5) + 1)
         inner_correct_result = 'yes'
-        for i in range(3, limiter):
+        for i in range(2, limiter):
             if any_number % i == 0:
                 inner_correct_result = 'no'
         if any_number == 1:
