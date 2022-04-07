@@ -7,10 +7,9 @@ UPPER_BOUND = 100
 
 def do_even():
     """do_even takes argument and returns evenness.
-    Parameter: operat_question and correct result.
+    Parameter: operat_question, correct result and text of this function.
     Returns:  is random_number is even.
     """
-    
     FUNC_TXT = 'Answer "yes" if the number is even, otherwise answer "no".'
     random_number = randint(LOWER_BOUND, UPPER_BOUND)
     correct_result = 'no'

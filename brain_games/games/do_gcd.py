@@ -16,6 +16,7 @@ def do_gcd():
     random_number2 = randint(LOWER_BOUND, UPPER_BOUND)
     operat_quest = '{0} {1}'.format(random_number1, random_number2)
     while (random_number2):
-        random_number1, random_number2 = random_number2, random_number1 % random_number2
+        random_number1, random_number2 = random_number2, 
+        random_number1 % random_number2
     correct_result = random_number1
     return (operat_quest, correct_result, FUNC_TXT)

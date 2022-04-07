@@ -26,8 +26,6 @@ def dispatch_all(scenario):
     print(WELCOME_TEXT)
     user_name = prompt.string(ASK_NAME)
     print(GREET_TXT.format(user_name))
-    
-    
     quant = 0
     while quant < 3:
         operat_question, correct_result, FUNC_TXT = scenario()
@@ -40,8 +38,6 @@ def dispatch_all(scenario):
             print(txt17.format(correct_result))
             print(txt18.format(user_name))
             break
-        
-
         print(txt14)
         quant = quant + 1
     if quant == 3:
