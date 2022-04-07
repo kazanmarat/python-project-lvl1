@@ -24,7 +24,7 @@ txt18 = "Let's try again, {0}!"
 
 def dispatch_all(scenario):
     print(WELCOME_TEXT)
-    user_name = prompt(ASK_NAME)
+    user_name = prompt.string(ASK_NAME)
     print(GREET_TXT.format(user_name))
     
     
