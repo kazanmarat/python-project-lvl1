@@ -24,7 +24,7 @@ def do_calc():
                   random_number1 - random_number2],
         'multipl': ['{0} {1} {2}'.format(random_number1, '*', random_number2),
                     random_number1 * random_number2]
-    } 
+    }
     operat_quest = dict_of_choice[my_choice][0]
     cor_res = dict_of_choice[my_choice][1]
     return(operat_quest, cor_res, FUNC_TXT)
