@@ -19,11 +19,11 @@ def do_calc():
     my_choice = choice(['add', 'subtr', 'multipl'])
     dict_of_choice = {
         'add': ['{0} {1} {2}'.format(random_number1, '+', random_number2),
-        random_number1 + random_number2],
+                random_number1 + random_number2],
         'subtr': ['{0} {1} {2}'.format(random_number1, '-', random_number2),
-        random_number1 - random_number2],
+                 random_number1 - random_number2],
         'multipl': ['{0} {1} {2}'.format(random_number1, '*', random_number2),
-        random_number1 * random_number2]
+                   random_number1 * random_number2]
     }
     operat_quest = dict_of_choice[my_choice][0]
     cor_res = dict_of_choice[my_choice][1]

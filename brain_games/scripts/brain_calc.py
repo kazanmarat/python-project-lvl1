@@ -5,6 +5,7 @@
 from brain_games.games.do_calc import do_calc
 from dispatch_all import dispatch_all
 
+
 def main():
     """Define the main function."""
     dispatch_all(do_calc)
