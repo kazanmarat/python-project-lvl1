@@ -11,10 +11,11 @@ def do_gcd():
     Parameters: a and b are random numbers.
     Returns: the greatest common divisor.
     """
+    FUNC_TXT = 'Find the greatest common divisor of given numbers.'
     random_number1 = randint(LOWER_BOUND, UPPER_BOUND)
     random_number2 = randint(LOWER_BOUND, UPPER_BOUND)
-    operat_quest = ('Question: {0} {1}'.format(random_number1, random_number2))
+    operat_quest = '{0} {1}'.format(random_number1, random_number2)
     while (random_number2):
         random_number1, random_number2 = random_number2, random_number1 % random_number2
     correct_result = random_number1
-    return (operat_quest, correct_result)
+    return (operat_quest, correct_result, FUNC_TXT)
