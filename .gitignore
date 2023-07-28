@@ -1,12 +1,8 @@
-# I have added this file 14 oct. 2021.
-
-# Ignore directory .venv in all directories of project
-.venv
-
-# I have added this line 21 oct. 2021
-# Ignore directory dist
-dist
-
-#I have added this line 05 nov. 2021
-#Ignore all .pyc files
+*.egg-info
+__pycache__
+dist/
 *.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/

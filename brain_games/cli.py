@@ -1,11 +1,7 @@
-"""Return a greeting."""
-
-
 import prompt
 
 
 def welcome_user():
-    """Ask a name."""
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-
-    print('Hello, {0}!'.format(name))
+    print(f'Hello, {name}!')

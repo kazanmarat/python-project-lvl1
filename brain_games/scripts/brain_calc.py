@@ -1,14 +1,10 @@
-#!/usr/bin/env python
-
-"""Do this module main and import functions from other modules."""
-
-from brain_games.games.do_calc import do_calc
-from dispatch_all import dispatch_all
+#!/usr/bin/env python3
+from brain_games.games.calc import game_rule, operation_count
+from brain_games.engine import game
 
 
 def main():
-    """Define the main function."""
-    dispatch_all(do_calc)
+    game(game_rule, operation_count)
 
 
 if __name__ == '__main__':

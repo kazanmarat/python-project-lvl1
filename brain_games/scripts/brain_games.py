@@ -1,13 +1,8 @@
-#!/usr/bin/env python
-
-"""Do this module main and import functions from other modules."""
-
+#!/usr/bin/env python3
 from brain_games.cli import welcome_user
 
 
 def main():
-    """Define the main function."""
-    print('Welcome to the Brain Games!')
     welcome_user()
 
 
