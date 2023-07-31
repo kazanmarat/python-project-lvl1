@@ -23,3 +23,5 @@ The video shows examples of work. Text from the video can be copied.
 ### running brain-progression
 [![asciicast](https://asciinema.org/a/S9aehv6P0aBGqv2gnhtBetQNC.svg)](https://asciinema.org/a/S9aehv6P0aBGqv2gnhtBetQNC)
 
+### running brain-prime
+[![asciicast](https://asciinema.org/a/TtNsHrl1N9BVuK9T043SBCwdu.svg)](https://asciinema.org/a/TtNsHrl1N9BVuK9T043SBCwdu)
