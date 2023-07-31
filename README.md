@@ -20,4 +20,6 @@ The video shows examples of work. Text from the video can be copied.
 ### running brain-gcd
 [![asciicast](https://asciinema.org/a/BiCAfNMYsqnBHDNv44V7e05aQ.svg)](https://asciinema.org/a/BiCAfNMYsqnBHDNv44V7e05aQ)
 
+### running brain-progression
+[![asciicast](https://asciinema.org/a/S9aehv6P0aBGqv2gnhtBetQNC.svg)](https://asciinema.org/a/S9aehv6P0aBGqv2gnhtBetQNC)
 
