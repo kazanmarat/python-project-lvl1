@@ -11,8 +11,10 @@ The video shows examples of work. Text from the video can be copied.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a5551f40b263ba2c3764/maintainability)](https://codeclimate.com/github/kazanmarat/python-project-lvl1/maintainability)
 
-### Video asciinema about installing brain-games and running brain-even
+### installing brain-games and running brain-even
 [![asciicast](https://asciinema.org/a/ua6OQJP8luP5fWvAS27HVWUXR.svg)](https://asciinema.org/a/ua6OQJP8luP5fWvAS27HVWUXR)
 
+### running brain-calc
+[![asciicast](https://asciinema.org/a/grqmHEMG9YAeExN5E3FuIz2Mq.svg)](https://asciinema.org/a/grqmHEMG9YAeExN5E3FuIz2Mq)
 
 
