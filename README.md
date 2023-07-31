@@ -17,4 +17,7 @@ The video shows examples of work. Text from the video can be copied.
 ### running brain-calc
 [![asciicast](https://asciinema.org/a/grqmHEMG9YAeExN5E3FuIz2Mq.svg)](https://asciinema.org/a/grqmHEMG9YAeExN5E3FuIz2Mq)
 
+### running brain-gcd
+[![asciicast](https://asciinema.org/a/BiCAfNMYsqnBHDNv44V7e05aQ.svg)](https://asciinema.org/a/BiCAfNMYsqnBHDNv44V7e05aQ)
+
 
