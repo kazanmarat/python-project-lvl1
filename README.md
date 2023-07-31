@@ -11,9 +11,8 @@ The video shows examples of work. Text from the video can be copied.
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a5551f40b263ba2c3764/maintainability)](https://codeclimate.com/github/kazanmarat/python-project-lvl1/maintainability)
 
-### Video asciinema about installing brain-even
-[![asciicast](https://asciinema.org/a/TaUCjR9spC5strNBM7ezZyPOb.svg)](https://asciinema.org/a/TaUCjR9spC5strNBM7ezZyPOb)
+### Video asciinema about installing brain-games and running brain-even
+[![asciicast](https://asciinema.org/a/ua6OQJP8luP5fWvAS27HVWUXR.svg)](https://asciinema.org/a/ua6OQJP8luP5fWvAS27HVWUXR)
 
 
-### Video asciinema about brain-prime
-[![asciicast](https://asciinema.org/a/nysOJlnwkrKyT2MiFzDa74PJQ.svg)](https://asciinema.org/a/nysOJlnwkrKyT2MiFzDa74PJQ)
+
